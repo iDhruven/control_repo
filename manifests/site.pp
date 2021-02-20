@@ -6,3 +6,7 @@ node default {
     owner   => 'root'
   }
 }
+
+node 'ubuntu1804.localdomain' {
+  include role::master_server
+}
