@@ -9,7 +9,7 @@ node default {
 
 #node 'ubuntu1804.localdomain' {
   include role::master_server
-  file 
+  file
   { '/root/README':
     ensure  => file,
     content => "Welcome to ${fqdn}\n"
