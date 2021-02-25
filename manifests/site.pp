@@ -14,6 +14,10 @@ node 'ubuntu1804.localdomain' {
     ensure  => file,
     content => "Welcome to ${fqdn}\n"
   }
+  file {'/etc/secret_password.txt':
+    ensure => file,
+    content => lookup('secret_password')
+  }
 }
 node 'minetest.puppet.vm'{
   include role::minecraft_server
