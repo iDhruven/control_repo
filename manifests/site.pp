@@ -5,9 +5,9 @@ node default {
     content => 'This is a readme',
     owner   => 'root'
   }
-}
+#}
 
-node 'ubuntu1804.localdomain' {
+#node 'ubuntu1804.localdomain' {
   include role::master_server
   file 
   { '/root/README':
