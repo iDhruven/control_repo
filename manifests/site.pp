@@ -15,7 +15,7 @@ node default {
     content => "Welcome to ${fqdn}\n"
   }
   file {'/etc/secret_password.txt':
-    ensure => file,
+    ensure  => file,
     content => lookup('secret_password')
   }
 }
