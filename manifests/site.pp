@@ -29,3 +29,7 @@ node default {
 #node /^db/ {
 #  include role::db_server
 #}
+
+node elk.local {
+  include role::elk
+}
