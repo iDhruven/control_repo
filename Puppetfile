@@ -6,3 +6,5 @@ mod 'puppetlabs-docker'
 mod 'samuelson-dockeragent'
 mod 'puppetlabs-apt'
 #mod 'pltraining-dockeragent', '0.0.16'
+mod 'elk',
+  :git => 'https://github.com/iDhruven/elk.git'
