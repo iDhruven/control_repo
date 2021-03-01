@@ -1,4 +1,5 @@
 node default {
+  include telegraf
 #  file 
 #  { '/root/README':
 #    ensure  => file,
