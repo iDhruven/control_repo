@@ -1,6 +1,7 @@
 mod 'puppet-nginx'
 mod 'puppet-yum', '4.3.0'
 mod 'puppet-archive', '4.6.0'
+mod 'puppet-telegraf', '4.0.0'
 mod 'puppetlabs-concat'
 mod 'puppetlabs-translate'
 mod 'puppetlabs-stdlib'
